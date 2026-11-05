@@ -1,0 +1,9 @@
+model,eval,MAE,RMSE,MAPE%,WAPE%
+baseline: median $/mile by equipment x distance,clean,167.12,233.968,8.322,7.031
+baseline: median $/mile by equipment x distance,raw,219.305,662.556,10.534,9.109
+boosted trees (FINAL),clean,72.431,99.771,3.017,3.047
+boosted trees (FINAL),raw,125.97,636.085,5.305,5.231
+boosted trees + quote_signal (rejected),clean,66.795,101.125,2.886,2.816
+boosted trees + quote_signal (rejected),raw,120.3,633.156,5.178,5.001
+boosted trees without market_index,clean,81.278,110.448,3.31,3.391
+boosted trees without market_index,raw,134.703,638.746,5.603,5.567
